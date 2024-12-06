@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply form</title>
+    <style>
+        a {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h3>Contact Information</h3>
+        <p>Name: <input type=" text" required></p>
+        <p>Father's Name: <input type="text" required></p>
+        <fieldset>
+            <legend>Gender</legend>
+            <p>Male <input type="radio" name="Gender" id="Male" required> Female <input type="radio" name="Gender" id="Female" required></p>
+        </fieldset>
+        <p> State<select name="State" id="State" required>
+            <option value="">Select State</option>
+            <option value="Maharashtra">Maharashtra</option>
+            <option value="Rajasthan">Rajasthan</option>
+            <option value="Haryana">Haryana</option>
+            <option value="Gujrat">Gujrat</option>
+            <option value="Punjab">Punjab</option>
+            <option value="Himachal Pradesh">Himachal Pradesh</option>
+            <option value="Uttar Pradesh">Uttar Pradesh</option>
+        </select></p>
+        <p>Pincode: <input type="number" value="Pincode" required></p>
+        <p>Parmanent Address: <textarea name="Address" id="Address" cols="100" rows="08" required></textarea></p>
+
+        <p>Mobile No.: <input type="number" required></p>
+        <p>Email: <input type="email" required></p>
+        <button> <a href="Payment.html" target="_blank" >Continue</a></button>
+    </form>
+</body>
+</html>

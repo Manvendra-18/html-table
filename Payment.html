@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+</head>
+<body>
+    <form>
+        <h2>Payment Method</h2>
+        <select name="Payment type" id="Payment type">
+            <option value="">__Select Payment Method__</option>
+            <option value="Paytm">Paytm</option>
+            <option value="Phone Pay">Phone Pay</option>
+            <option value="PayPal">PayPal</option>
+            <option value="Google Pay">Google Pay</option>
+            
+        </select>
+        <p>Mobile No. <input type="number" required></p>
+        <p>UPI: <input type="password" placeholder="PIN" required></p>
+        <fieldset>
+            <legend>Fee Select</legend>
+            <p>200rs. <input type="radio" name="Fee Select" id="200rs." required> 150rs.<input type="radio" name="Fee Select" id="150rs." required> 100rs. <input type="radio" name="Fee Select" id="100rs." required> 80rs. <input type="radio" name="Fee Select" id="80rs." required></p>
+        </fieldset>
+        <button>Pay Now</button>
+    </form>
+    <p><b>Note*:</b> Before select the "Fee for Registration" read the Instruction Page.</p>
+    <p>For Instruction Page click here: <a href="Instruction.html">https://-rs-instruction-hotel.com</a></p>
+</body>
+</html>
